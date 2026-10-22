@@ -44,6 +44,9 @@ body{
     background-color: beige;
     color: black;
     border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    
 }
 .container button::after{
     content: "";
