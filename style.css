@@ -6,10 +6,12 @@
     font-family: "Poppins", sans-serif;
 }
 body{
+    min-height: 100vh;
     background: linear-gradient(rgb(70, 20, 70), black);
 }
 .container{
     width: 400px;
+    height: 300px;
     padding: 25px 35px;
     top: 50%;
     left: 50%;
@@ -18,4 +20,10 @@ body{
     color: black;
     transform: translate(-50%, -50%);
     border-radius: 10px;
+}
+.container p{
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: 600;
+
 }
