@@ -3,7 +3,7 @@ let qrImg= document.getElementById("qrImg");
 let qrText= document.getElementById("qrText");
 function genrator()
 {
- qrImg   = "https://quickchart.io/qr?text=Hello%20World&size=300" + qrText.value;}
+ qrImg.src   = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + qrText.value;}
 const btn = document.querySelector(".container button");
 
 btn.addEventListener("click", function () {
