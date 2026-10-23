@@ -58,10 +58,10 @@ qrImg.src =
 
 ```bash
 # Clone the repository
-git clone https://github.com/aqsaishtiaq19/YOUR-REPO-NAME.git
+git clone https://github.com/aqsaishtiaq19/QR-Code-Genrator.git
 
 # Go to the project folder
-cd YOUR-REPO-NAME
+cd QR-Code-Genrator
 ```
 
 Open `index.html` in your browser. No installation needed.
@@ -74,7 +74,7 @@ Open `index.html` in your browser. No installation needed.
 YOUR-REPO-NAME/
 ├── index.html
 ├── style.css
-├── script.js
+├── index.js
 ├── screenshot.png
 ├── LICENSE
 └── README.md
