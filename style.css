@@ -53,3 +53,13 @@ body{
     background-color: rgb(100, 99, 99);
     transform: translate(-50%, -50%);
 }
+#imgBox{
+    border-radius: 5px;
+    width: 200px;
+    max-height: 0;
+    overflow: hidden;
+}
+#imgBox img{
+    width: 100%;
+    padding: 10px;
+}
