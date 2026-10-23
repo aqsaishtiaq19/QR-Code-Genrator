@@ -69,3 +69,23 @@ body{
     border: 2px solid black;
     margin: 10px auto;
 }
+.error{
+    animation: shake 0.1s linear;
+}
+@keyframes shake{
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(0);
+    }
+    75% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
